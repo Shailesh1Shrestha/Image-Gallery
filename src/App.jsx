@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-    <h1 className="font-bold text-4xl text-uppercase ">Image Gallery </h1>
+    <h1 className="text-white max-w-sm mx-auto font-bold text-4xl items-center border-b-4 border-yellow-500 py-2">IMAGE GALLERY </h1>
 
     <div className="container mx-auto"> 
     <ImageSearch searchText = {(text) => setTerm(text)} />
